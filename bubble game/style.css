@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(164, 209, 164);
+}
+#panel{
+    overflow: hidden;
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    background-color: #fff; 
+}
+#ptop{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 20%;
+    background-color: rgb(82, 111, 82);
+}
+.elem{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: white;
+}
+#value{
+    color: green;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: #fff;
+}
+#valueTimer{
+    color: green;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: #fff;
+}
+#valueHit{
+    color: green;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: #fff;
+}
+#pbtm{
+    width: 100%;
+    height: 80%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+#bubble{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    height: 11%;
+    width: 4%;
+    border-radius: 50%;
+    background-color: rgb(80, 130, 80);
+    font-weight: 700;
+    font-size: 20px;
+}
+#bubble:hover{
+    background-color: rgb(67, 93, 67);
+    cursor: pointer;
+}
