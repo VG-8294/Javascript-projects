@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(135deg, #153677,#4e085f);
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: center;
+    gap: 30px;
+}
+.container h2{
+    font-size: 40px;
+}
+.container img{
+    height: 10vh;
+}
+#Todo{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 30vh;
+    width: 40vw;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 60px;
+    /* font-family: "Merriweather", serif; */
+    font-family: "PT Serif", serif;
+}
+#heading{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+#content{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+#task{
+    width: 30vw;
+    padding: 15px;
+    border-radius: 50px;
+    font-size: 15px;
+    border: none;
+    background-color: rgb(231, 230, 230)  ;
+}
+#task:hover{
+    border: none;
+    background-color: rgb(212, 211, 211);
+}
+#add{
+    height: 50px;
+    width: 50px;
+    font-size: 22px;
+    padding: 10px;
+    border-radius: 50%;
+    font-weight: 900;
+    background-color: orange;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#add:hover{
+    background-color: rgb(255, 128, 0);
+}
+#results{
+    padding: 30px;
+    border-radius: 10px;
+    background-color: white;
+    height: 50vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+}
+#listContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#buttons{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#delete{
+    background: transparent;
+    width: 10vh;
+    padding:5px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: red;
+    border:2px solid red;
+    cursor: pointer;
+}
+#delete:hover{
+    background-color: red;
+    color: white;
+}
+#edit{
+    background: transparent;
+    width: 10vh;
+    padding:5px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: blue;
+    border:2px solid blue;
+    cursor: pointer;
+}
+#edit:hover{
+    background-color: blue;
+    color: white;
+}
