@@ -70,6 +70,7 @@ html, body{
     color: white;
     border: none;
     cursor: pointer;
+    transition: all ease 0.5s;
 }
 #add:hover{
     background-color: rgb(255, 128, 0);
@@ -90,6 +91,12 @@ html, body{
     align-items: center;
     justify-content: space-between;
 }
+#listContent-inn{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
 #buttons{
     text-align: center;
     display: flex;
@@ -102,9 +109,11 @@ html, body{
     padding:5px;
     border-radius: 5px;
     font-size: 14px;
+    font-weight: 600;
     color: red;
     border:2px solid red;
     cursor: pointer;
+    transition: all ease 0.3s;
 }
 #delete:hover{
     background-color: red;
@@ -116,11 +125,26 @@ html, body{
     padding:5px;
     border-radius: 5px;
     font-size: 14px;
+    font-weight: 600;
     color: blue;
     border:2px solid blue;
     cursor: pointer;
+    transition: all ease 0.3s;
 }
 #edit:hover{
     background-color: blue;
     color: white;
+}
+#InputEdit{
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    background-color:rgb(231, 230, 230);
+    border-radius: 20px;
+}
+#InputEdit:hover{
+    background-color: rgb(212, 211, 211);
+}
+.completed {
+    text-decoration: line-through;
 }
