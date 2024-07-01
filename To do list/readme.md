@@ -1,9 +1,9 @@
 ![alt text](<Screenshot 2024-07-01 122542-1.png>)
 
-To-Do List
+# To-Do List
 The To-Do List is a dynamic and interactive feature designed to help you keep track of tasks efficiently. It offers a variety of functionalities that make task management seamless and straightforward.
 
-Features:
+# Features:
 Add Tasks: Easily add new tasks to your list with a simple input form. Each task can have a title and optional description.
 
 Edit Tasks: Modify existing tasks to update their information. This allows you to make changes to the task's title or description as needed.
